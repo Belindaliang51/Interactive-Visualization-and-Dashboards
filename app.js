@@ -1,7 +1,7 @@
 // Initializes the page with a default plot
 function init() {
 
-    d3.json("../samples.json").then(function (data) {
+    d3.json("samples.json").then(function (data) {
         //console.log(data)
 
         var id = data.samples[0].id;
