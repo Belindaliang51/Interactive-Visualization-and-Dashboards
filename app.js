@@ -95,7 +95,10 @@ function init() {
                 delta: { reference: 10 },
                 type: "indicator",
                 mode: "gauge+number+delta",
-                gauge: { axis: { range: [null, 10] }}    
+                gauge: { axis: { range: [null, 10] },
+                        bar: {
+                            color: "#ffa299"
+                        }    
             }
         ];
 
@@ -216,7 +219,11 @@ function updataMetadata(subjectID) {
                         delta: { reference: 10 },
                         type: "indicator",
                         mode: "gauge+number+delta",
-                        gauge: { axis: { range: [null, 10] } }
+                        gauge: { axis: { range: [null, 10] }, 
+                                bar: {
+                                    color: "#ffa299"
+                                }, 
+                        }
                     }
                 ];
 
